@@ -7,7 +7,8 @@ Note that openai-api-proxy does **absolutely no authentication nor authorization
 secure internal network.
 
 This project uses [Spring Boot Web](https://docs.spring.io/spring-boot/docs/3.2.2/reference/html/web.html) to build
-the REST service. [sqlite-jdbc](https://github.com/xerial/sqlite-jdbc) and
+the REST service. [Spring Boot Data JPA](https://docs.spring.io/spring-boot/docs/3.2.2/reference/html/data.html),
+[sqlite-jdbc](https://github.com/xerial/sqlite-jdbc), and
 [hibernate-community-dialects](https://github.com/hibernate/hibernate-orm/blob/6.4/dialects.adoc) are  used for the
 SQLite database access. [JTokkit ](https://github.com/knuddelsgmbh/jtokkit) is used for estimating the tokens of queries
 before forwarding the API call.
