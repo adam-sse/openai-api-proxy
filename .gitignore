@@ -1,0 +1,10 @@
+/*.db
+
+# maven
+/target/
+
+# eclipse
+/.settings/
+/.classpath
+/.project
+/.checkstyle
