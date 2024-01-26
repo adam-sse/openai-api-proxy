@@ -196,7 +196,7 @@ chmod u=rwx,g=rx,o= /opt/openai-api-proxy/run.sh
 ```
 3. Create `/var/lib/openai-api-proxy/` and set owner `chown www-data:www-data /var/lib/openai-api-proxy/`
 4. Create `/etc/systemd/system/openai-api-proxy.service`:
-```
+```ini
 [Unit]
 Description=Proxy for the OpenAI API that keeps track of tokens and cost
 After=network.target
