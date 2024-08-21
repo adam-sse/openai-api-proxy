@@ -31,7 +31,7 @@ as a transparent proxy for applications. There are three notable differences:
 
 Example usage:
 ```bash
-curl -H "content-type: application/json" -H "x-user: adam" http://localhost:8080/v1/chat/completions -d '{"model":"gpt-4-1106-preview","messages":[{"role":"user","content":"I'm using a proxy to talk to you."}]}'
+curl -H "content-type: application/json" -H "x-user: adam" http://localhost:8080/v1/chat/completions -d '{"model":"gpt-4-1106-preview","messages":[{"role":"user","content":"I am using a proxy to talk to you."}]}'
 ```
 
 ### Model metadata
