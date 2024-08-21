@@ -187,7 +187,7 @@ You can set up openai-api-proxy as a systemd service roughly like this:
 export FORWARD_TOKEN="YOUR_TOKEN"
 export SPRING_DATASOURCE_URL="jdbc:sqlite:/var/lib/openai-api-proxy/queries.db"
 
-java -cp /opt/openai-api-proxy/openai-api-proxy.jar net.ssehub.openai_api_proxy.OpenAiApiProxy
+exec java -cp /opt/openai-api-proxy/openai-api-proxy.jar net.ssehub.openai_api_proxy.OpenAiApiProxy
 ```
 Make this only accessible by `root` and `www-data`:
 ```
